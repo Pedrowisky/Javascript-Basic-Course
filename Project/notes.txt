@@ -1,0 +1,45 @@
+                                        FORMATANDO STRINGS
+--------------------------------------------------------------------------------------------------
+// o prompt smp recebe um valor string
+--------------------------------------------------------------------------------------------------
+// o '+' mais serve para concatenção -> (string + string) | ou adição -> (number + number) 
+// alert('A soma dos dois números é: ' + soma); 
+--------------------------------------------------------------------------------------------------
+// o ${} usa template string -> se utiliza craze
+// alert(`A soma de ${num1} + ${num2} é de: ${soma}`);
+--------------------------------------------------------------------------------------------------
+// Number.parseFloat() ou .parseFloat() -> string para num -> decimal 
+// Number.parseInt() ou .parseInt() -> string para num -> inteiro
+// Number() -> string para num int e float -> versões mais recentes ECMAscript
+// String() ou .toString()-> para String 
+---------------------------------------------------------------------------------------------------
+// .lenght -> quantas caracteres a String possui
+// .toUpperCase() -> passar para letra maíuscula
+// .toLowerCase() -> passar para letra minuscula
+// document.write / writeln -> escreve na tela / quebra a linha como o br 
+// <strong> -> negrito
+----------------------------------------------------------------------------------------------------
+                                        FORMATANDO NÚMEROS
+----------------------------------------------------------------------------------------------------
+// .toFixed() -> definir quantidade de casas decimais
+// .toFixed().replace('.', ',') -> substituir ponto por vírgula
+// .toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) -> formata o número para dinheiro 
+em R$ (Real)
+----------------------------------------------------------------------------------------------------
+                                        INTRODUÇÃO AO DOM
+----------------------------------------------------------------------------------------------------
+// window.getEelement(s)byTagName = ('p')[0]; -> referência aos elementos com a tag 'p' -> [0] para 
+especificar qual elemento no caso de vários (começa a partir do 0)
+// window.getEelement(s)byClassName()
+// window.getEelement(s)byId()
+// window.getEelement(s)byName()
+// querySelector(All)('div#msg') -> quando id '#', quando class '.'
+// innerText -> insere apenas o texto na tela
+// innerHTML -> insere o texto e suas formatações
+// mouseenter -> quando o mouse entrar na div
+// mousemove -> quando o mouse estiver se movendo dentro
+// mousedown -> quando o clicar e segurar
+// mouseup -> quando o clicar e segurar e soltar
+// mouseout -> quando o mouse estiver fora
+// click -> quando clicar rapidamente
+// addEventListener -> basicamente a func que se coloca no HTML mas em vez disso no javascript;

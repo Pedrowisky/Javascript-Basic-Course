@@ -1,0 +1,13 @@
+/*exercise 09*/
+input {
+  font-size: 20px !important;
+  width: 200px;
+  text-align: center;
+}
+span {
+  font: 25px Arial bold;
+}
+#res {
+  font-size: 1.4rem;
+  padding-top: 1.6rem;
+}

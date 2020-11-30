@@ -17,7 +17,6 @@
 // .toUpperCase() -> passar para letra maíuscula
 // .toLowerCase() -> passar para letra minuscula
 // document.write / writeln -> escreve na tela / quebra a linha como o br 
-// <strong> -> negrito
 ----------------------------------------------------------------------------------------------------
                                         FORMATANDO NÚMEROS
 ----------------------------------------------------------------------------------------------------
@@ -28,17 +27,19 @@ em R$ (Real)
 ----------------------------------------------------------------------------------------------------
                                         INTRODUÇÃO AO DOM
 ----------------------------------------------------------------------------------------------------
-// window.getEelement(s)byTagName = ('p')[0]; -> referência aos elementos com a tag 'p' -> [0] para especificar qual elemento no caso de vários (começa a partir do 0)
-// window.getEelement(s)byClassName()
-// window.getEelement(s)byId()
-// window.getEelement(s)byName()
+// getEelement(s)byTagName = ('p')[0]; 
+-> [0] para especificar qual elemento no caso de vários (começa a partir do 0)
+// getEelement(s)byName()[0]
+// getEelement(s)byClassName()
+// getEelement(s)byId()
+// getEelement(s)byName()
 // querySelector(All)('div#msg') -> quando id '#', quando class '.'
 // innerText -> insere apenas o texto na tela
 // innerHTML -> insere o texto e suas formatações
 // mouseenter -> quando o mouse entrar na div
 // mousemove -> quando o mouse estiver se movendo dentro
 // mousedown -> quando o clicar e segurar
-// mouseup -> quando o clicar e segurar e soltar
+// mouseup -> quando o clicar, segurar e soltar
 // mouseout -> quando o mouse estiver fora
 // click -> quando clicar rapidamente
 // addEventListener -> func que se coloca no HTML porém no javascript;

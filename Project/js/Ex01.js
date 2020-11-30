@@ -9,17 +9,17 @@ function load() {
     var weather
 
     if (hour >= 0 && hour < 12) {
-        img.src = '../../images/morning.png'
+        img.src = '../images/Exercise 01/morning.png'
         document.body.style.background = '#e2cd9f';
         weather = "Manhã"
     }
     else if (hour >= 12 && hour <= 18) {
-        img.src = '../../images/afternoon.png'
+        img.src = '../images/Exercise 01/afternoon.png'
         document.body.style.background = '#b9846f';
         weather = "Tarde"
     }
     else {
-        img.src = '../../images/night.png'
+        img.src = '../images/Exercise 01/night.png'
         document.body.style.background = '#515154';
         weather = "Noite"
     }

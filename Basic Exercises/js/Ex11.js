@@ -1,7 +1,8 @@
 //exercise 011
-var agora = new Date()
-var diaSemana = agora.getDay()
+var date = new Date()
+var diaSemana = date.getDay()
 
+/*
 0 = Domin
 1 = Segunda
 2 = Terça
@@ -9,7 +10,7 @@ var diaSemana = agora.getDay()
 4 = Quin
 5 = Sex
 6 = Sab
-
+*/
 console.log(diaSemana)
 
 switch (diaSemana) {

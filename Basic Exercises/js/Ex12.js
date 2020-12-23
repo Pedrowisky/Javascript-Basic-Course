@@ -1,3 +1,4 @@
+//exercise 012
 console.log('Começo do hello again utilizando while')
 var count = 1
 while (count <= 10) {

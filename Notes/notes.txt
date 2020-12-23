@@ -1,0 +1,43 @@
+                                        FORMATANDO STRINGS
+--------------------------------------------------------------------------------------------------
+o prompt sempre recebe um valor string
+--------------------------------------------------------------------------------------------------
+o '+' mais serve para concatenção -> (string + string) | ou adição -> (number + number) 
+alert('A soma dos dois números é: ' + soma); 
+--------------------------------------------------------------------------------------------------
+o ${} usa template string -> se utiliza craze
+alert(`A soma de ${num1} + ${num2} é de: ${soma}`);
+--------------------------------------------------------------------------------------------------
+Number.parseFloat() ou .parseFloat() -> string para num -> decimal 
+Number.parseInt() ou .parseInt() -> string para num -> inteiro
+Number() -> string para num int e float -> versões mais recentes ECMAscript
+String() ou .toString()-> para String 
+---------------------------------------------------------------------------------------------------
+.lenght -> quantas caracteres a String possui
+.toUpperCase() -> passar para letra maíuscula
+.toLowerCase() -> passar para letra minuscula
+document.write / writeln -> escreve na tela / quebra a linha como o br 
+----------------------------------------------------------------------------------------------------
+                                        FORMATANDO NÚMEROS
+----------------------------------------------------------------------------------------------------
+.toFixed() -> definir quantidade de casas decimais
+.toFixed().replace('.', ',') -> substituir ponto por vírgula
+.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'}) -> formata o número para dinheiro 
+em R$ (Real)
+----------------------------------------------------------------------------------------------------
+                                        INTRODUÇÃO AO DOM
+----------------------------------------------------------------------------------------------------
+getEelement(s)byTagName = ('p')[0]; 
+-> [0] para especificar qual elemento no caso de vários (começa a partir do 0)
+querySelector(All)('div#msg') -> quando id '#', quando class '.'
+innerText -> insere apenas o texto na tela
+innerHTML -> insere o texto e suas formatações
+addEventListener -> func que se coloca no HTML porém no javascript;
+----------------------------------------------------------------------------------------------------
+                                        ARRAY OU VETORES
+----------------------------------------------------------------------------------------------------
+num[3] = 8 -> adicionar valor 8 no indice 3 do array
+num.push(1) -> adicionar um valor especificado ao final (último indice) do arry
+num.sort() -> organizar os elementos do array
+num.indexOf(1) -> retornar o indice do elemento 1 do array caso esse elemento exista
+se não exister retorna um -1

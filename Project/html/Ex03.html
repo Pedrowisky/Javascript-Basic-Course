@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Contador</title>
+    <link rel="stylesheet" href="../css/Ex03.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <h1>Vamos contar</h1>
+        <br>
+    </header>
+    <section>
+        <div class="content">
+            <p>Início:
+                <input type="number" name="start" id="txtstart">
+            </p>
+            <p>Fim:
+                <input type="number" name="end" id="txtend">
+            </p>
+            <p>Passo:
+                <input type="number" name="step" id="txtstep">
+            </p>
+            <input class="btn btn-primary" type="button" value="Contar" onclick="Verify()">
+            <br><br>
+            <div id="res">
+                Preparando a Contagem...
+            </div>
+        </div>
+    </section>
+    <br>
+    <footer>
+        <p>&copy; CursoemVideo</p>
+    </footer>
+</body>
+<script src="../js/Ex03.js"></script>
+
+</html>
